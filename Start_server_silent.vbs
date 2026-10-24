@@ -1,0 +1,2 @@
+Set WshShell = CreateObject("WScript.Shell")
+WshShell.Run "cmd /c cd /d """ & WshShell.ExpandEnvironmentStrings("%USERPROFILE%") & "\OneDrive\Desktop\MY PORTFOLIO\backend"" && uvicorn app:app", 0, False

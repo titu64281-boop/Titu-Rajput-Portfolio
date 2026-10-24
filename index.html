@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Titu Kumar | Python Backend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Ambient Glow Backgrounds -->
+  <div class="glow-bg glow-1"></div>
+  <div class="glow-bg glow-2"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">Titu<span>.Dev</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-item">About</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#education" class="nav-item">Education</a>
+        <a href="#contact" class="nav-item">Contact</a>
+        <a href="#socials" class="nav-item btn-contact-nav">Connect</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-wrapper">
+      
+      <!-- Left Content -->
+      <div class="hero-content">
+        <div class="badge-status">
+          <span class="status-dot"></span> Available for Python Backend Roles
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Titu Kumar</span>
+        </h1>
+        <h2 class="hero-subtitle">
+          I am a <span class="typing-text" id="typingText"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-desc">
+          Final-year BCA student at <strong>IIMT College, Aligarh</strong>. Passionate about building robust backend architectures, RESTful APIs, relational databases in SQL, and automated data pipelines using Python.
+        </p>
+        
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fa-solid fa-terminal"></i> View Projects
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fa-regular fa-envelope"></i> Contact Me
+          </a>
+        </div>
+      </div>
+
+      <!-- Right DP Showcase -->
+      <div class="hero-image-wrapper">
+        <div class="profile-card">
+          <div class="profile-glow"></div>
+          <div class="profile-avatar-container">
+            <img src="profile.png" alt="Titu Kumar" class="profile-img" onerror="this.onerror=null; this.src='profile.jpg';" />
+          </div>
+          <div class="profile-badge">
+            <i class="fa-brands fa-python"></i> Python Backend Developer
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// BACKEND PROFILE</span>
+        <h2 class="section-heading">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass">
+          <p>
+            I am a focused <strong>Python Backend Developer</strong> in my final year of Bachelor of Computer Applications (BCA) at <strong>IIMT College, Aligarh</strong>. I specialize in writing clean, modular, and performant backend code to power REST APIs, automate workflows, and organize relational schemas.
+          </p>
+          <p>
+            My practical development spans building database-driven applications with MySQL/SQLite, computer vision automation pipelines with OpenCV, and logic-intensive Python applications.
+          </p>
+          <div class="stats-grid">
+            <div class="stat-box">
+              <span class="stat-num">Python & SQL</span>
+              <span class="stat-label">Core Tech Stack</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">BCA</span>
+              <span class="stat-label">IIMT College, Aligarh</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">REST & Scripts</span>
+              <span class="stat-label">Backend Focus</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// TECHNICAL ARSENAL</span>
+        <h2 class="section-heading">Backend & Core Skills</h2>
+      </div>
+      <div class="skills-grid">
+        
+        <div class="skill-category glass">
+          <div class="category-header">
+            <i class="fa-brands fa-python icon-lang"></i>
+            <h3>Python Core</h3>
+          </div>
+          <div class="badges">
+            <span class="badge">Python 3.x</span>
+            <span class="badge">OOP Concepts</span>
+            <span class="badge">Data Structures</span>
+            <span class="badge">File Handling & Automation</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <div class="category-header">
+            <i class="fa-solid fa-server icon-backend"></i>
+            <h3>Backend Architecture</h3>
+          </div>
+          <div class="badges">
+            <span class="badge">RESTful APIs</span>
+            <span class="badge">FastAPI / Flask</span>
+            <span class="badge">CRUD Operations</span>
+            <span class="badge">JSON Processing</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <div class="category-header">
+            <i class="fa-solid fa-database icon-sql"></i>
+            <h3>Databases</h3>
+          </div>
+          <div class="badges">
+            <span class="badge">MySQL / SQLite</span>
+            <span class="badge">Relational SQL</span>
+            <span class="badge">Schema Normalization</span>
+            <span class="badge">Query Optimization</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <div class="category-header">
+            <i class="fa-solid fa-screwdriver-wrench icon-tools"></i>
+            <h3>Tools & Libraries</h3>
+          </div>
+          <div class="badges">
+            <span class="badge">Git & GitHub</span>
+            <span class="badge">OpenCV Basics</span>
+            <span class="badge">Pygame</span>
+            <span class="badge">VS Code & Postman</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// REPOSITORIES</span>
+        <h2 class="section-heading">Featured Backend Projects</h2>
+      </div>
+
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="backend">Backend & APIs</button>
+        <button class="filter-btn" data-filter="automation">Automation & Vision</button>
+        <button class="filter-btn" data-filter="games">Python Games</button>
+      </div>
+
+      <div class="projects-grid" id="projectsContainer">
+
+        <div class="project-card glass" data-category="backend">
+          <div class="project-top">
+            <div class="folder-icon"><i class="fa-solid fa-network-wired"></i></div>
+            <div class="links">
+              <a href="https://github.com/titu64281-boop" target="_blank" class="view-project-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Python RESTful CRUD Backend Service</h3>
+          <p class="project-desc">
+            Structured backend architecture providing modular routes, input validation, SQL transactions, and data formatting for scalable applications.
+          </p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>REST API</span>
+            <span>SQLite/MySQL</span>
+            <span>JSON</span>
+          </div>
+        </div>
+
+        <div class="project-card glass" data-category="automation">
+          <div class="project-top">
+            <div class="folder-icon"><i class="fa-solid fa-camera"></i></div>
+            <div class="links">
+              <a href="https://github.com/titu64281-boop" target="_blank" class="view-project-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Face Recognition Attendance System</h3>
+          <p class="project-desc">
+            Computer vision automation created with Python and OpenCV that captures webcam frames, identifies profiles, and writes automated logs directly to spreadsheets.
+          </p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>OpenCV</span>
+            <span>Data Automation</span>
+          </div>
+        </div>
+
+        <div class="project-card glass" data-category="games">
+          <div class="project-top">
+            <div class="folder-icon"><i class="fa-solid fa-gamepad"></i></div>
+            <div class="links">
+              <a href="https://github.com/titu64281-boop" target="_blank" class="view-project-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">2D Arcade Racing Game Engine</h3>
+          <p class="project-desc">
+            Python application built with Pygame handling high-frequency game ticks, obstacle mechanics, 2D boundary collision algorithms, and real-time score calculation.
+          </p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Pygame</span>
+            <span>State Management</span>
+          </div>
+        </div>
+
+        <div class="project-card glass" data-category="backend">
+          <div class="project-top">
+            <div class="folder-icon"><i class="fa-solid fa-database"></i></div>
+            <div class="links">
+              <a href="https://github.com/titu64281-boop" target="_blank" class="view-project-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Database Management & Query Optimizer</h3>
+          <p class="project-desc">
+            Relational database interface performing complex joins, stored queries, indexing, and transactional integrity checks across application tables.
+          </p>
+          <div class="project-tags">
+            <span>SQL</span>
+            <span>MySQL</span>
+            <span>Schema Design</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Timeline -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// ACADEMICS</span>
+        <h2 class="section-heading">Education & Qualifications</h2>
+      </div>
+      <div class="timeline">
+        
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glass">
+            <span class="timeline-date">Undergraduate (Final Year)</span>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p><strong>IIMT College, Aligarh</strong> (Affiliated with Raja Mahendra Pratap Singh State University, Aligarh)</p>
+            <p>Core Studies: Database Management Systems (SQL), Operating Systems, Software Architecture, and Object-Oriented System Design.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glass">
+            <span class="timeline-date">Technical Training</span>
+            <h3>Diploma in Office Automation & Publishing (DOAP)</h3>
+            <p>18-month diploma covering system administration basics, data records processing, automation workflows, and spreadsheet management.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glass">
+            <span class="timeline-date">Schooling</span>
+            <h3>Senior Secondary Education (Class XII)</h3>
+            <p>Completed with solid foundational training in mathematics and logical problem-solving.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// MESSAGE</span>
+        <h2 class="section-heading">Send A Message</h2>
+      </div>
+      <div class="contact-card glass">
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" required placeholder="Enter your name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" required placeholder="name@example.com" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" required placeholder="Python Backend Role / Collaboration" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" required placeholder="Hi Titu, I came across your Python backend portfolio..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">
+            <i class="fa-regular fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Connect Cards (Sabse Neeche) -->
+  <section class="section section-socials-bottom" id="socials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// SOCIAL PROFILES</span>
+        <h2 class="section-heading">Connect With Me</h2>
+      </div>
+      <div class="social-cards-grid">
+        
+        <a href="https://github.com/titu64281-boop" target="_blank" class="social-box glass github-box">
+          <div class="box-icon"><i class="fa-brands fa-github"></i></div>
+          <div class="box-info">
+            <h4>GitHub</h4>
+            <p>@titu64281-boop • View repositories & code</p>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square arrow-link"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/titu-kumar-814b33443?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-box glass linkedin-box">
+          <div class="box-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+          <div class="box-info">
+            <h4>LinkedIn</h4>
+            <p>Titu Kumar • Connect professionally</p>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square arrow-link"></i>
+        </a>
+
+        <a href="Https://www.instagram.com/a_l_o_n_e___b_o_y____2?cplk=cWRiMmNhdGxwbm5n" target="_blank" class="social-box glass instagram-box">
+          <div class="box-icon"><i class="fa-brands fa-instagram"></i></div>
+          <div class="box-info">
+            <h4>Instagram</h4>
+            <p>@a_l_o_n_e___b_o_y____2 • Follow my journey</p>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square arrow-link"></i>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toastMsg">Thank you! Your message has been sent.</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Titu Kumar. Built with clean code & modern web standards.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
